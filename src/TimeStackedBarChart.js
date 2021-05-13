@@ -6,7 +6,7 @@ import dayjs from 'dayjs'
 const BAR_WIDTH = 75
 const BAR_WIDTH_HALF = BAR_WIDTH / 2
 
-function TimeBarChart({ data }) {
+function TimeStackedBarChart({ data }) {
     const ref = useD3(
         svg => {
             const height = 500
@@ -138,4 +138,4 @@ function TimeBarChart({ data }) {
     )
 }
 
-export default TimeBarChart
+export default TimeStackedBarChart
