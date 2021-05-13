@@ -18,17 +18,17 @@ const tsData = [
 
 const tsDataStacked = [
     { ts: 1583884800979, apples: 100, oranges: 200 },
-    { ts: 1581465600979, apples: 300, oranges: 600 },
-    { ts: 1591920000979, apples: 500, oranges: 100 }
+    { ts: 1581465600979, apples: 200, oranges: 700 },
+    { ts: 1591920000979, apples: 300, oranges: 1000 }
 ]
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <BarChart data={data} />
-                <TimeBarChart data={tsData} />
-                <TimeStackedBarChart data={tsData} />
+                <TimeStackedBarChart data={tsDataStacked} />
+                {/* <TimeBarChart data={tsData} />
+                <BarChart data={data} /> */}
             </header>
         </div>
     )
