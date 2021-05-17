@@ -17,9 +17,12 @@ const tsData = [
 ]
 
 const tsDataStacked = [
-    { ts: 1583884800979, apples: 100, oranges: 200 },
-    { ts: 1581465600979, apples: 200, oranges: 700 },
-    { ts: 1591920000979, apples: 300, oranges: 1000 }
+    { ts: 1581465600979, apples: 200, oranges: 700, adjustXAxis: -26 },
+    { ts: 1581465600979, apples: 200, oranges: 700, adjustXAxis: 25 },
+    { ts: 1583884800979, apples: 100, oranges: 200, adjustXAxis: -26 },
+    { ts: 1583884800979, apples: 100, oranges: 200, adjustXAxis: 25 },
+    { ts: 1592092800979, apples: 2000, oranges: 2000, adjustXAxis: -26 },
+    { ts: 1592092800979, apples: 300, oranges: 1000, adjustXAxis: 25 }
 ]
 
 function App() {
