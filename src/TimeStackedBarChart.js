@@ -136,7 +136,6 @@ function TimeStackedBarChart({ data }) {
                             console.log(`TODO DELETE ME: datum.data.ts=${JSON.stringify(datum.data.ts)}`)
                         })
                         .on('mousemove', function (event) {
-                            console.log(`TODO DELETE ME: MOUSEMOVE`)
                             const datum = d3.select(this).datum()
                             const parentDatum = d3.select(this.parentNode).datum()
                             const width = tooltip.node().getBoundingClientRect().width
